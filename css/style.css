@@ -16,7 +16,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 1rem;
   text-rendering: optimizeSpeed;
 }
 
@@ -27,7 +27,7 @@ main {
   min-height: 100vh;
   background: url('/images/bg-intro-desktop.png') no-repeat;
   background-color: var(--Red);
-  padding: 0px 160px;
+  padding: 0px 10rem;
 }
 
 section {
@@ -37,17 +37,17 @@ section {
 
 .contents {
   color: #fff;
-  padding-right: 60px;
+  padding-right: 3.75rem;
 }
 
 h1 {
-  font-size: 50px;
-  line-height: 58px;
-  margin-bottom: 25px;
+  font-size: 3.125rem;
+  line-height: 3.625rem;
+  margin-bottom: 1.5625rem;
 }
 
 .contents p {
-  line-height: 25px;
+  line-height: 1.5625rem;
   opacity: 0.9;
 }
 
@@ -55,11 +55,11 @@ h1 {
   width: 100%;
   background-color: var(--Blue);
   color: #e3e3da;
-  padding: 15px 20px;
+  padding: 0.9375rem 1.25rem;
   text-align: center;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  padding-right: 30px;
+  margin-bottom: 1.25rem;
+  border-radius: 0.5rem;
+  padding-right: 1.875rem;
 }
 
 .head span {
@@ -73,7 +73,7 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-shadow: 0px 4px 0px 1px rgb(0 0 0 / 17%);
 }
 
@@ -83,9 +83,9 @@ form div {
 }
 
 input, button {
-  padding: 17px 25px;
-  margin-bottom: 18px;
-  border: 1px solid #e3e3da;
+  padding: 1.0625rem 1.5625rem;
+  margin-bottom: 1.125rem;
+  border: 0.0625rem solid #e3e3da;
   border-radius: 8px;
   font-weight: 600;
 }
@@ -94,7 +94,7 @@ button {
   text-transform: uppercase;
   color: #fff;
   background-color: var(--Green);
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ button:hover {
 }
 
 form p {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: var(--GrayishBlue);
   margin: auto;
 }
@@ -124,17 +124,17 @@ input:focus, button:focus {
 */
 .form-control {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .form-control input {
     border: 1px solid #e3e3da;
     color: #3B3A3F;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     display: block;
     width: 100%;
-    padding: 10px;
-    font-size: 16px;
+    padding: 0.625rem;
+    font-size: 1rem;
 }
 
 .form-control.success input {
@@ -155,8 +155,8 @@ input:focus, button:focus {
 
 .form-control img {
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 0.625rem;
+    right: 1.25rem;
     visibility: hidden;
 }
 
@@ -164,7 +164,7 @@ input:focus, button:focus {
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: 10px;
+    font-size: 12px;
     color: var(--Red);
     visibility: hidden;
 }
@@ -185,7 +185,7 @@ input:focus, button:focus {
 
 @media (max-width: 962px) {
   main {
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -203,7 +203,7 @@ input:focus, button:focus {
 
   .contents {
     text-align: center;
-    padding: 40px 0 60px;
+    padding: 2.5rem 0 3.75rem;
   }
 
   form p {
@@ -211,11 +211,11 @@ input:focus, button:focus {
   }
 
   h1 {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
 
   .head {
-    padding: 15px 60px;
+    padding: 0.9375rem 3.75rem;
   }
 }
 
