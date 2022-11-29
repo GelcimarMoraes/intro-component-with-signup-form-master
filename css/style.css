@@ -122,9 +122,9 @@ input:focus, button:focus {
   outline: none;
 }
 
-/*
-* Form Inputs Styles
-*/
+/*==================
+  Form Inputs Styles
+  ==================*/
 .form-control {
     position: relative;
     margin-bottom: 0.9375rem;
@@ -171,10 +171,6 @@ input:focus, button:focus {
     color: var(--Red);
     visibility: hidden;
 }
-
-/*
-* Form Inputs Styles end
-*/
 
 .attribution { 
   font-size: 11px; 

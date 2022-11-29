@@ -65,6 +65,7 @@ function checkInput() {
 
         setErrorFor(email, 'Looks like this is not an email');
 
+
     } else {
         setSuccessFor(email);
     }
