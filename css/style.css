@@ -128,7 +128,7 @@ input:focus, button:focus {
 }
 
 .form-control input {
-    border: 1px solid #e3e3da;
+    border: 1px solid #D0D0D0;
     color: #3B3A3F;
     border-radius: 0.3125rem;
     display: block;
