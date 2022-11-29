@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --Red: hsl(0, 100%, 74%); 
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --DarkBlue: hsl(249, 10%, 26%); 
+  --GrayishBlue: hsl(246, 25%, 77%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  text-rendering: optimizeSpeed;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('/images/bg-intro-desktop.png') no-repeat;
+  background-color: var(--Red);
+  padding: 0px 160px;
+}
+
+section {
+  max-width: 100%;
+  width: 50%;
+}
+
+.contents {
+  color: #fff;
+  padding-right: 60px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 58px;
+  margin-bottom: 25px;
+}
+
+.contents p {
+  line-height: 25px;
+  opacity: 0.9;
+}
+
+.head {
+  width: 100%;
+  background-color: var(--Blue);
+  color: #e3e3da;
+  padding: 15px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding-right: 30px;
+}
+
+.head span {
+  color: #fff;
+  font-weight: 600;
+}
+
+#form {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 0px 1px rgb(0 0 0 / 17%);
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  padding: 17px 25px;
+  margin-bottom: 18px;
+  border: 1px solid #e3e3da;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+button {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--Green);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #77E2B4;
+}
+
+form p {
+  font-size: 10px;
+  color: var(--GrayishBlue);
+  margin: auto;
+}
+
+form p span {
+  color: var(--Red);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+input:focus, button:focus {
+  caret-color: var(--Blue);
+  outline: none;
+}
+
+/*
+* Form Inputs Styles
+*/
+.form-control {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-control input {
+    border: 1px solid #605B79;
+    color: #3B3A3F;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-control.success input {
+    border: 2px solid var(--Green);
+}
+
+.form-control.error input {
+    border: 2px solid var(--Red);
+}
+
+.form-control.error img {
+    visibility: visible;
+}
+
+.form-control.error span {
+    visibility: visible;
+}
+
+.form-control img {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    visibility: hidden;
+}
+
+.form-control span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 10px;
+    color: var(--Red);
+    visibility: hidden;
+}
+
+/*
+* Form Inputs Styles end
+*/
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  background-color: var(--Red); 
+  }
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  }
+
+
+@media (max-width: 962px) {
+  main {
+    padding: 40px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/bg-intro-mobile.png');
+    background-color: var(--Red);
+  }
+
+  section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contents {
+    text-align: center;
+    padding: 40px 0 60px;
+  }
+
+  form p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .head {
+    padding: 15px 60px;
+  }
+}
+
